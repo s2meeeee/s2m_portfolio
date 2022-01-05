@@ -1,0 +1,120 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500&display=swap');
+
+body {font-family: 'Noto Sans KR', sans-serif; font-size:12px;line-height:100%;font-weight:normal;padding:0px;margin:0px;letter-spacing:-0px; }
+html, body { width:100%;height:100%;letter-spacing:0px; }
+div, p, ul, li, table, th, td, textarea, input, span, form, h1, h2, h3, h4, h5, h6, dt, dl, dd, em, sup, button {padding:0px;margin:0px;font-family: 'Playfair Display', serif;}
+ul, ol, dl, dd, dt, li { list-style-type:none;margin:0;padding:0px;line-height:100%;font-size:12px;letter-spacing:0px; }
+form, fieldset, p {margin:0;padding:0;border:0;}
+img {border:0;vertical-align:middle;outline:none;}
+
+.cleartix::after{content: ""; display: block; clear:both;}
+/* 초기화코드 */
+
+.wrap{width:1280px;
+        margin:0 auto;}
+section{width:100vw;}
+
+/* main 시작 */
+#main{width:100%;}
+.profile{width:100%;
+        height:100%;
+        position:relative;
+        top:0;
+        left:0;}
+.profile img{width:100%;}
+.space{width:150px;
+        height:100%;}
+.space img{width:100%;}
+.space01{position: absolute;
+        top:18%;
+        left: 30%;}
+.space02{position: absolute;
+        top:30%;
+        right:25%;}
+.space03{width:230px;
+        position:absolute;
+        top:73%;
+        right:25%;}
+/* main 끝 */
+/* section2 시작 */
+
+.article{width:100%;
+        height:800px;}
+
+.my_skill{width:100%;
+        height:1080px;
+        position:relative;
+        display: flex;
+        color:#fff;}
+.text_r{margin-right: 80px;}
+.text_l{margin-left: 80px;}
+.my{width:50%;
+        height:100%;
+        text-align: right;
+        background-color: #5F7486;}
+.skill{width:50%;
+        height:100%;
+        background-color: #72818D;}
+h2{margin-top:30%;
+        font-size: 40px;
+        font-weight: 200;
+        margin-bottom: 20%;}
+.my span{font-size: 16px;
+                line-height: 20px;}
+.text_l>h3{width:100;
+        font-size: 20px;
+        line-height: 20px;
+        padding-bottom: 10px;
+        }
+.text_l>span{display: block;
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 40px;}
+
+/* section2 끝   */
+/* section3 시작 */
+article{width:100%;
+        height:750px;}
+
+.work{text-align: center;
+        margin-top: 5%;
+        margin-bottom: 0;}
+.image{width:50%;
+        height:100%;
+        margin-top: 15%;;
+
+        float: left;}
+.image img{width:100%;}
+.item{width:50%;
+        height:100%;
+        float: left;
+        margin-top: 10%;}
+.Number{font-size: 40px;
+        padding-bottom: 10%;}
+.item li{font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 30px;}
+.item li h5{font-weight: 600;
+                font-size: 20px;}
+
+.item2{text-align: right;}
+
+.skill_sub{display: flex;
+        margin-top: 20px;}
+.skill_sub li{margin-left: 10px;}
+.skill_sub li:nth-child(1){margin-left:0;}
+.sub_r{margin-left: 0%;}
+
+
+
+.page2{background-color: #99A1A7;}
+
+
+/* section3 끝 */
+
+
+
+
+
+

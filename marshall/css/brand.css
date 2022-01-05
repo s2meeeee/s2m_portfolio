@@ -1,0 +1,269 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(https://fonts.googleapis.com/css?family=Do+Hyeon&amp;subset=korean);
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
+
+body { -ms-overflow-style: none;background:#111111;font-family: 'Playfair Display', serif;font-size:12px;color:#e0dfdc;line-height:100%;font-weight:normal;padding:0px;margin:0px;letter-spacing:-0px; }
+html, body { width:100%;height:100%;letter-spacing:0px; }
+div, p, ul, li, table, th, td, textarea, input, span, form, h1, h2, h3, h4, h5, h6, dt, dl, dd, em, sup, button {padding:0px;margin:0px;font-family: 'Playfair Display', serif;}
+ul, ol, dl, dd, dt, li { list-style-type:none;margin:0;padding:0px;line-height:100%;font-size:12px;letter-spacing:0px; }
+form, fieldset, p {margin:0;padding:0;border:0;}
+img {border:0;vertical-align:middle;outline:none;}
+
+::-webkit-scrollbar { display: none; }
+a,a:link,a:visited,a:active{color:#e0dfdc;letter-spacing:normal;text-decoration:none;letter-spacing:-0.8px;}
+
+
+
+.clearfix::after{content:"";display:block;clear:both;}
+
+.wrap{width:90%;
+    margin:0 auto;}
+
+header{width:100%;
+    height:150px;
+    position: relative;
+        z-index: 10;}
+
+header h1{width:140px;
+        padding-top:50px;
+        display: block;
+        float: left;}
+header h1 img{width:100%;}
+
+nav{width:100%;
+    padding-top:65px;
+    text-align: center;}
+
+.gnb{width:480px;
+    margin-left: 50px;
+    float: left;}
+.gnb li{width:120px;
+        height:30px;
+        float: left;
+        font-size: 15px;
+        font-weight: 600;}
+.gnb li a{position: relative;
+        padding:10px 6px;}
+.gnb li a::after{
+    content:"";
+    position:absolute;
+    bottom:0;
+    left:0; 
+    /* transform-style: */
+    width:0;
+    height:3px;
+    background:#e0dfdc;
+    transition:all .5s;
+}
+.gnb li a:hover::after{ width:100%;}
+
+.sub{float: right;
+    position: relative;
+    width:280px;}
+.sub_i{width:120px;
+        float: left;}
+.sub_i li{float: left;
+        width:20px;
+        height:20px;
+        margin-left: 15px;}
+.sub_i li img{width:100%;}
+.sub span{float:right;
+    display: block;
+    font-size: 15px;
+    font-weight: 600;}
+/* header*/
+/* content */
+.main{width:100%;
+    height:600px;
+        position: relative;
+        top:-150px;}
+
+.ma_img{width:100%;
+        height:600px;
+        background-image:url(../img/brand/1.png);
+        background-size: cover;} 
+
+.ma_tit{
+    height:350px;
+    position:absolute;
+    top:45%;}
+.ma_tit span{font-size: 18px;
+            line-height: 18px;
+            color:#c0c0c0;}
+.ma_tit h2{font-size: 35px;
+        line-height: 40px;
+        font-weight: normal;
+        padding-bottom: 10px;}
+
+/* section2 */
+.con1{width:100%;
+    height:1350px;}
+.con1_box{
+    height:1350px;
+    border-bottom: 1px solid #e0dfdc;}
+.tit{width:100%;
+        height:200px;}
+
+.tit h3{font-weight: normal;
+    font-size:35px;
+    text-align: center;
+    line-height: 40px;
+    padding-top: 30px;}
+
+.con1_ab{width:100%;}
+.ab1{float: left;
+    width:47%;
+    height:47%;}
+.ab1 img{width:100%;}
+
+.ab1_1{float: right;}
+.ab1_tit{width:100%;
+        height:200px;
+        display: block;}
+
+.ab1_tit h4{font-size: 35px;
+            line-height: 45px;
+            padding-top: 40px;
+            font-weight: normal;
+            text-align: center;}
+
+.ab1_tit>span{display: block;
+            width:150px;
+            height:40px;
+            color:#111111;
+            font-size: 20px;
+            line-height: 40px;
+            text-align: center;
+            box-sizing: border-box;
+            border-radius:50px;
+            background-color:#e0dfdc;
+            margin:30px auto;
+            cursor: pointer;}
+
+.ab1_tit>span:hover{color:#e0dfdc;
+                    background-color: #595959;}
+/* section2 */
+/* section3 */
+
+.con3_t{padding-top: 100px;}
+
+.item{width:100%;
+    height:2400px;
+    overflow: hidden;}
+
+.item li{
+    margin-left:5%;
+    margin-top:5%;
+    width: 30%;
+    height:700px;
+    float: left;}
+
+.item li img{width:100%;}
+
+.item li:nth-child(3n+1){margin-left: 0;}
+
+
+.text_box{display: block;
+        width:100%;
+        height:100%;}
+.text_box h3{font-size: 30px;
+            padding: 30px 0 20px 0;
+            height:70px;
+            line-height: 35px;}
+.text_box p{font-size: 15px;
+            line-height: 18px;}
+.item:nth-child(3n+1){margin-left: 0;}
+.item img{width:100%;}
+.btn{width:100%;
+    height:300px;
+    padding-top: 50px;}
+.btn input{border-radius: 20px;
+            background-color: #595959;
+            color:#e0dfdc;
+            width:170px;
+            height:40px;
+            font-size: 18px;
+            padding-bottom: 5px;
+            margin-left: 45%;
+            cursor: pointer;}
+
+/* section3 */
+
+/* footer */
+footer{width: 100%;
+    height: 350px;}
+.f_text{width:100%;
+    height:85px;
+    padding-top:80px;
+    text-align: center;}
+.f_text span{font-size: 30px;
+    line-height: 35px;}
+.f_text>p{font-size: 15px;
+    line-height: 18px;}
+.f_text>span,.f_text>p{font-family: 'Roboto', sans-serif;}
+.f_img{width:500px;
+    height:100%;
+    margin:0 auto;}
+.f_img li{float: left;
+    margin-left: 10px;;
+    width:50px;}
+.f_img li img{width:100%;}
+
+@media only screen and (max-width:1600px) and (min-width:1200px){
+    header h1{padding-top:40px;
+        width:120px;}
+    nav{padding-top:50px;}
+    .gnb li{font-size: 12px;}
+    .sub{width:230px;}
+    .sub_i li{width:16px;}
+    .sub span{font-size: 12px;}
+
+    /* content */
+
+    .main{width:100%;
+        height:500px;}
+    
+    .ma_img{ height:500px;} 
+    
+    .ma_tit{
+        height:350px;
+        position:absolute;
+        top:45%;}
+    .ma_tit span{font-size: 15px;}
+    .ma_tit h2{font-size: 30px;}
+        /* content */
+        /* section2 */
+        .con1{width:100%;
+            height:1080px;}
+        .con1_box{
+            height:1080px;
+            border-bottom: 1px solid #e0dfdc;}
+
+    .tit h3{font-size: 25px;}
+    
+    .ab1_tit h4{font-size: 25px;
+                padding-top: 30px;}
+
+    .ab1_tit>span{width:120px;
+        height:30px;
+        font-size: 15px;
+        line-height: 30px;}
+    /* section2 */
+    /* section3 */
+    .item li{
+        margin-left:5%;
+        margin-top:3%;
+        width: 30%;
+        height:700px;
+        float: left;}
+
+    .text_box h3{font-size: 20px;
+        height: 40px;}
+.text_box p{font-size: 15px;}
+    /* section3 */
+    
+    
+
+
+}
